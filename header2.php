@@ -1,3 +1,8 @@
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/justified-nav.css" rel="stylesheet">
 <header class="masthead">
         <!-- <h3 class="text-muted"></h3> -->
 
@@ -29,4 +34,3 @@
           </div>
         </nav>
       </header>
-      <img src="hd1.jpg" width="1350" height="250" style="margin-top: 0px; margin-left: 0px; margin-bottom: 10px;" />

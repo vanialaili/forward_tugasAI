@@ -23,7 +23,9 @@
       <main role="main">
       
 <?php include 'koneksi.php';?>      
-<center>
+<center style="background-color: powderblue;">
+<img src="hd1.jpg" width="1350" height="250" style="margin-top: 0px; margin-left: 0px; margin-bottom: 10px;" />
+<div class="card-body">
   <form class="col-6" method="POST" action="proses.php">
       <div style="overflow: scroll; height: 500px;">
           <?php
@@ -46,4 +48,5 @@
       </div>
     <input type="submit" class="btn btn-primary btn-lg btn-block" name="submit" value="submit">
   </form>
+  </div>
 </center>

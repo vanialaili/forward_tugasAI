@@ -4,7 +4,7 @@
           <div class="footer-copyright py-3">
             <span>
             <a>
-              <em>&copy; 2021 Copyright: PT SAKTI</em>
+              <em>&copy; 2021 Copyright</em>
             </a>
           </span>
                     <ul class="nav" style="float:right">

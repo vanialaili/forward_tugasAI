@@ -21,7 +21,7 @@ function myFunction() {
   <div class="input-group-prepend">
       <span class="input-group-text"><h5>INFO PENYAKIT&nbsp;&nbsp;&nbsp;</h5></span>
   </div>
-  <textarea class="form-control" style="color:red;" rows="6" readonly>
+  <textarea class="form-control" style="color:red;" rows="19" readonly>
     Tidak ditemukan info terkait gejala-gejala yang anda masukkan, Karena keterbatasan data kami.
   </textarea>
 </div>
@@ -30,7 +30,7 @@ function myFunction() {
   <div class="input-group-prepend">
       <span class="input-group-text"><h5>SOLUSI PENYAKIT</h5></span>
   </div>
-  <textarea class="form-control" style="color:red;" rows="6"  readonly>
+  <textarea class="form-control" style="color:red;" rows="19"  readonly>
     Harap lakukan pemerikasaan lebih lanjut melalui dokter..!!
   </textarea>
 </div>

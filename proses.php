@@ -12,27 +12,26 @@ if(isset($_POST['submit'])){
 	$data=mysqli_query($kon,$qry);
 	$id='';
 	$rule=array(
-		array("G003","G006"), #CAMPAK
-		array("G013","G020"), #ALERGI DEBU
-		array("G013","G014","G020"), #FLU
-		array("G003","G012","G013","G014","G019","G020"), #FLU
-		array("G003","G006","G018","G019"), #TIPES
-		array("G003","G007","G019"), #DBD
-		array("G003","G007","G008","G009","G019"), #DBD
-		array("G003","G006","G007","G009","G019"), #DEMAM CHIKUNGUYA
-		array("G005","G010","G012","G014","G018"), #EMFESIMA
-		array("G003","G005","G007","G012","G016","G018"), #PNEUMONIA KOMUNITI
 		array("G001","G002"), #COVID 19 TANPA GEJALA
 		array("G001","G002","G014","G015","G019"), #COVID 19 TANPA GEJALA
-		array("G003","G007","G014","G015","G019"), #COVID 19 RINGAN
-		array("G001","G002","G003","G007","G013","G014","G015"), #COVID 19 RINGAN
-		array("G002","G003","G005","G014","G015","G018"), #COVID 19 SEDANG
-		array("G001","G002","G003","G005","G014","G015","G018"), #COVID 19 SEDANG
-		array("G001","G002","G003","G004","G005","G015","G017"), #COVID 19 BERAT
-		array("G002","G003","G004","G005","G015","G017"), #COVID 19 BERAT
 		array("G001","G002","G003","G004","G005","G010","G011","G015","G017","G018","G019"), #COVID 19 KRITIS
-		array("G002","G003","G004","G005","G010","G011","G015","G017","G0018","G020")); #COVID 19 KRITIS
-		
+		array("G001","G002","G003","G004","G005","G015","G017"), #COVID 19 BERAT
+		array("G001","G002","G003","G005","G014","G015","G018"), #COVID 19 SEDANG
+		array("G001","G002","G003","G007","G013","G014","G015"), #COVID 19 RINGAN
+		array("G002","G003","G004","G005","G010","G011","G015","G017","G0018","G020"), #COVID 19 KRITIS
+		array("G002","G003","G004","G005","G015","G017"), #COVID 19 BERAT
+		array("G002","G003","G005","G014","G015","G018"), #COVID 19 SEDANG
+		array("G003","G005","G007","G012","G016","G018"), #PNEUMONIA KOMUNITI
+		array("G003","G005","G006"), #CAMPAK
+		array("G003","G006","G007","G009","G019"), #DEMAM CHIKUNGUYA
+		array("G003","G006","G018","G019"), #TIPES
+		array("G003","G007","G008","G009","G019"), #DBD
+		array("G003","G007","G014","G015","G019"), #COVID 19 RINGAN
+		array("G003","G007","G019"), #DBD
+		array("G003","G012","G013","G014","G019","G020"), #FLU
+		array("G005","G010","G012","G014","G018"), #EMFESIMA
+		array("G013","G014","G020"), #FLU
+		array("G013","G020")); #ALERGI DEBU
 		
 	$status=false;
 	for ($i=0; $i <20 ; $i++) {

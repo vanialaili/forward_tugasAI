@@ -21,14 +21,14 @@ function myFunction() {
   <div class="input-group-prepend">
       <span class="input-group-text"><h5>INFO PENYAKIT&nbsp;&nbsp;&nbsp;</h5></span>
   </div>
-  <textarea class="form-control" rows="6"   readonly><?php echo "$info"; ?></textarea>
+  <textarea class="form-control" rows="19" readonly><?php echo "$info"; ?></textarea>
 </div>
 
 <div class="input-group mb-3">
   <div class="input-group-prepend">
       <span class="input-group-text"><h5>SOLUSI PENYAKIT</h5></span>
   </div>
-  <textarea class="form-control" rows="6"  readonly><?php echo "$solusi"; ?> </textarea>
+  <textarea class="form-control" rows="19" readonly><?php echo "$solusi"; ?> </textarea>
 </div>
 </div>
 <br>

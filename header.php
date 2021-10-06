@@ -1,7 +1,7 @@
 <header class="masthead">
         <!-- <h3 class="text-muted"></h3> -->
 
-        <nav class="navbar navbar-expand-md navbar-light rounded mb-0" style="background-color:royalblue;">
+        <nav class="navbar navbar-expand-md navbar-light rounded mb-0" style="background-color:powderblue;">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

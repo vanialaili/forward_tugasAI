@@ -1,5 +1,5 @@
 <?php
-$kon=mysqli_connect("localhost","root","","",3306);
+$kon=mysqli_connect("localhost","root","","db_diagnosacovid",3306);
 if(mysqli_connect_errno()){
 	echo "Failed to Connect to Mysql : ".mysqli_connect_error();
 }
